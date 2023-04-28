@@ -20,7 +20,7 @@ class Counter extends Component {
         return <div>
             <span className="badge bg-primary">{this.currentCount()}</span>
             <button className="btn btn-secondary btn-sn" onClick={this.incrementNumber}>Add value</button>
-            <button className="btn btn-danger btn-sm" onClick={this.resetCount}>Reset.</button>
+            <button className="btn btn-danger btn-sm" onClick={this.resetCount}>Reset</button>
         </div>
     }
 }
